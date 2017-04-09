@@ -25,7 +25,7 @@ public class MainActivity extends SlidingFragmentActivity
         SlidingMenu menu = getSlidingMenu();
         menu.setMode(SlidingMenu.LEFT);
         // 设置触摸屏幕的模式
-        menu.setTouchModeAbove(SlidingMenu.TOUCHMODE_MARGIN);
+        menu.setTouchModeAbove(SlidingMenu.TOUCHMODE_NONE);
         menu.setShadowWidthRes(R.dimen.shadow_width);
         menu.setShadowDrawable(R.drawable.shadow);
         // 设置滑动菜单视图的宽度
